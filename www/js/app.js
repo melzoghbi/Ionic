@@ -72,7 +72,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/page1',
     views: {
       'menuContent': {
-        templateUrl: 'templates/page1.html'
+        templateUrl: 'templates/page1.html',
+        controller: 'Page1'
       }
     }
   });

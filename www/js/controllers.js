@@ -52,5 +52,13 @@ angular.module('starter.controllers', [])
   ];
 })
 
+.controller('Page1', function($scope) {
+  
+  $scope.strValue = "This is this page controller....";
+  
+  
+  
+})
+
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
